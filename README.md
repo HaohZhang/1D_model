@@ -1,9 +1,13 @@
 1D coupled sea ice-ocean model based on MITgcm.
 
 The folder named 'code1_ctr',     are the code of control run;
+
 The folder named 'code2_0Fw_Oce', are the code with the term 'Fw' is zero in the Ocean;
+
 The folder named 'code3_0Fw_Ice', are the code with the term 'Fw' is zero in the Ice;
+
 The folder named 'code4_0Fw_OIce',are the code with the term 'Fw' is zero in both the Ocean and Ice;
+
 The folder named 'code5_pic_0mw', are the code without the meltwater releasing, and the sea ice state can be able to keep same with the control run.
 
 
