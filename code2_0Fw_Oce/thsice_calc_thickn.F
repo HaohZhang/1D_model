@@ -1244,8 +1244,8 @@ C-- Update Sea-Ice state output:
          qIc2(i,j)   = qicen(i,j,2)
 #ifdef ALLOW_DBUG_THSICE
          IF (dBug(i,j,bi,bj) ) WRITE(6,1020)
-     &        'ThSI_CALC_TH: icFrac,hIce,flx2oc,fsalt,frw2oc=',
-     &        icFrac(i,j),hIce(i,j),flx2oc(i,j), fsalt(i,j), frw2oc(i,j)
+     &        'ThSI_CALC_TH: icFrac,flx2oc,fsalt,frw2oc=',
+     &        icFrac(i,j),flx2oc(i,j), fsalt(i,j), frw2oc(i,j)
 #endif
 C     endif iceMask > 0
         ENDIF
